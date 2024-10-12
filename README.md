@@ -1,1 +1,3 @@
-# FinalProject
+- This is a Laboratory Activity on Modules 1-5.
+- The topics covered in this activity are/is Q1.
+- https://github.com/DarmyMildAPaller/FinalProject
