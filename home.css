@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    line-height: 1.6;
+    background-color: #ffffff; 
+}
+
+header {
+    background-color: #d6aeff; 
+    padding: 20px;
+    color: #6c0d7e;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #b73f89;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #c29ee575;
+    transition: background-color 0.3s;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+/* Banner Image Section */
+.banner {
+width: 100%;
+height: 600px;
+background-color: #d6aeff;
+margin-bottom: 20px;
+ display: flex;
+align-items: center; 
+color: #ffffff;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 2em;
+text-align: left; 
+}
+
+.banner img {
+margin-left: 5px;
+width: 400px;
+height: 600px;
+object-fit: cover;
+}
+
+.banner h1 {
+margin-left: 10px; 
+}
+
+.welcome-section {
+    background-color: #FFFFFF;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-section h1 {
+color: #9323bf;
+    font-size: 2.5em;
+}
+
+.welcome-section p {
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+
+.news-section {
+    margin-top: 40px;
+}
+
+.news-section h2 {
+    color: #67287a;
+    font-size: 2em;
+    border-bottom: 2px solid #6A1B9A;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.news-item {
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 5px solid #6A1B9A;
+    display: flex;
+    gap: 20px;
+}
+
+.news-item img {
+    width: 150px;
+    height: 100px;
+    background-color: #D1C4E9; 
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.news-item h3 {
+    color: #a53ee4;
+    margin-bottom: 10px;
+}
+
+.news-item p {
+    color: #730093;
+}
+
+footer {
+    background-color: #805aae;
+    color: rgb(72, 7, 108);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+
+footer a {
+    color: #B39DDB;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
