@@ -123,6 +123,14 @@ nav {            display: flex;
             padding-bottom: 10px;
             margin-bottom: 20px;
         }
+        .news-section img {
+            transition-property: transform;
+            transition-duration: 1.5s;
+            transition-timing-function: ease-out;
+        }
+        .news-section img:hover {
+            transform: rotate(-10deg);
+        }
 
         .news-item {
             background-color: #f9f9f9;
@@ -139,8 +147,13 @@ nav {            display: flex;
             background-color: #D1C4E9; 
             object-fit: cover;
             border-radius: 5px;
+            transition-property: transform;
+            transition-duration: 1.5s;
+            transition-timing-function: ease-out;
         }
-
+        .news-item img:hover {
+            transform: rotate(10deg);
+        }
         .news-item h3 {
             color: #e43e3e;
             margin-bottom: 10px;
