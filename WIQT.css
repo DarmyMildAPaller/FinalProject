@@ -13,6 +13,12 @@ nav {            display: flex;
             margin: 0 15px;
         }
 
+        div :only-child {
+            position: relative;
+            left: 30px;
+            border: 3px solid #000000;
+          }
+
         nav ul li a {
             color: rgb(255, 255, 255);
             text-decoration: none;
@@ -67,6 +73,15 @@ nav {            display: flex;
             margin: auto;
             overflow: hidden;
             padding: 20px;
+            display: flex; /* Add flexbox layout */
+            justify-content: space-between; /* Space between text and video */
+            align-items: center; /* Center vertically */
+        }
+
+        .container iframe {
+            width: 300px; /* Video takes up 48% of the container */
+            height: 200px;
+            border-radius: 15px;
         }
 
         /* Banner Image Section */
@@ -94,13 +109,14 @@ nav {            display: flex;
 	    margin-left: 10px; 
 	}
 
-        .welcome-section {
-            background-color: #FFFFFF;
-            padding: 30px;
-            text-align: center;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
+    .welcome-section {
+        background-color: #FFFFFF;
+        padding: 30px;
+        text-align: left; /* Align text to the left */
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 48%; /* Take up 48% of the container */
+    }
 
         .welcome-section h1 {
 	    color: #b73f3f;
@@ -162,6 +178,15 @@ nav {            display: flex;
         .news-item p {
             color: #860101;
         }
+ 
+        .news-item div:first-child {
+            border: #000000;
+        }
+        
+        .news-item div:last-child {
+            color: #74fc8d;
+        }
+
 
         footer {
             background-color: #ce4646;
@@ -183,3 +208,4 @@ nav {            display: flex;
         footer a:hover {
             text-decoration: underline;
         }
+
