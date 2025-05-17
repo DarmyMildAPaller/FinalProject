@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Green Earth Profile</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>Your Profile</h1>
+    <p class="tagline">Thank you for supporting our campaign!</p>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="WIQT.html">What is Quality Education?</a></li>
+      <li><a href="announcement.html">Announcements</a></li>
+      <li><a href="signup.html">Sign Up</a></li>
+    </ul>
+  </nav>
+
+  <!-- Profile Information Section -->
+  <section class="profile-section">
+    <p><strong>First Name:</strong> <span id="displayFirstName"></span></p>
+    <p><strong>Last Name:</strong> <span id="displayLastName"></span></p>
+    <p><strong>Email Address:</strong> <span id="displayEmail"></span></p>
+    <p><strong>Sex:</strong> <span id="displaySex"></span></p>
+    <p><strong>Why I support this campaign:</strong></p>
+    <p id="displaySupportReason"></p>
+  </section>
+
+  <!-- Script for displaying data from localStorage -->
+  <script>
+    window.onload = () => {
+      document.getElementById('displayFirstName').textContent = localStorage.getItem('firstName') || '';
+      document.getElementById('displayLastName').textContent = localStorage.getItem('lastName') || '';
+      document.getElementById('displayEmail').textContent = localStorage.getItem('email') || '';
+      document.getElementById('displaySex').textContent = localStorage.getItem('sex') || '';
+      document.getElementById('displaySupportReason').textContent = localStorage.getItem('supportReason') || '';
+    };
+  </script>
+
+   <footer>
+    <p>Contact Us: | Phone: | Email: </p>
+    <p><a href="#">Privacy Policy</a> | <a href="#">Darmy Mild Abellaniza Paller</a> | <a href="#">Terms of Service</a></p>
+  </footer>
+</body>
+</html>
+ 

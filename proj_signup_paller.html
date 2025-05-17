@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Learning's Light, Future in Sight</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Building Futures Through Quality Learning</h1>
+    <p>Making the world a better place for all by using the power of eduction</p>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="WIQT.html">What is Quality Education?</a></li>
+      <li><a href="announcement.html">Announcements</a></li>
+      <li><a href="#">Sign Up</a></li>
+    </ul>
+  </nav>
+
+  <!-- Container -->
+  <div class="container">
+    <section class="welcome-section">
+      <h1>Do you want to share your blessing for other's EDUCATION?</h1>
+      <p>Feel free to add your details here for a better cost!<br>
+
+        <br>Across all ages and communities, countless people are held back by a lack of 
+        access to learning. Your support helps break those barriers. When you donate, you’re not 
+        just giving resources, you’re igniting confidence, sparking change, and opening doors to 
+        opportunity. Together, we can build a world where everyone, regardless of age or background, 
+        has the chance to grow, to thrive, and to dream bigger. Learn. Rise. Transform.<br>
+
+        <br> Learning is a basic right not a privilege. For too many people the chance to learn is 
+        blocked by poverty distance or unfair barriers. Your donation helps remove those obstacles and 
+        brings real opportunity. It means someone can join a class get access to new tools or finally hold 
+        a book that opens doors. With your help we’re not just sharing knowledge we’re building hope dignity 
+        and lasting change. Empower Educate Elevate.
+
+
+      </p>
+      <h3> </h3>
+    </section>
+
+    <!-- Sign Up Form Section -->
+    <section class="form-section">
+      <form id="signupForm" novalidate>
+        <label for="firstName">First Name <span class="required">*</span></label>
+        <input type="text" id="firstName" />
+        <span class="error" id="firstNameError"></span>
+
+        <label for="lastName">Last Name <span class="required">*</span></label>
+        <input type="text" id="lastName" />
+        <span class="error" id="lastNameError"></span>
+
+        <label>Sex <span class="required">*</span></label>
+        <div class="radio-group">
+          <input type="radio" id="male" name="sex" value="Male" />
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="sex" value="Female" />
+          <label for="female">Female</label>
+          <input type="radio" id="preferNot" name="sex" value="Prefer not to say" />
+          <label for="preferNot">Prefer not to say</label>
+        </div>
+        <span class="error" id="sexError"></span>
+
+        <label for="email">Email Address <span class="required">*</span></label>
+        <input type="email" id="email" />
+        <span class="error" id="emailError"></span>
+
+        <label for="password">Password <span class="required">*</span></label>
+        <input type="password" id="password" />
+        <span class="error" id="passwordError"></span>
+
+        <label for="contactNumber">Contact Number</span></label>
+        <input type="text" id="contactNumber" />
+
+        <label for="supportReason">Why you're supporting our campaign <span class="required">*</span></label>
+        <textarea id="supportReason" rows="3"></textarea>
+        <span class="error" id="supportReasonError"></span>
+
+        <button type="submit">Sign Up</button>
+      </form>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>Contact Us: | Phone: | Email: </p>
+    <p><a href="#">Privacy Policy</a> | <a href="#">Darmy Mild Abellaniza Paller</a> | <a href="#">Terms of Service</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
